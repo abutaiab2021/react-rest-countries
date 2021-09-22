@@ -1,3 +1,5 @@
 .countries{
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(3,1f);
+    grid-gap: 10px;
 }
